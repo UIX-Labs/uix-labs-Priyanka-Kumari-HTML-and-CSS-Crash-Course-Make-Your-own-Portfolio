@@ -1,1 +1,38 @@
 /* Start coding below for GRID PROBLEM TASK */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-gap: 3px;
+    background-color: blue;
+    border-radius: 30px;
+    padding: 40px;
+    width: 23%;
+    
+    
+}
+.grid{
+    background-color: aqua;
+    padding: 40px;
+    text-align: center;
+    
+}
+.grid10{
+    grid-column-start:1;
+    grid-column-end: 3;
+    padding: 90px;
+    background-color: red;
+}
+
