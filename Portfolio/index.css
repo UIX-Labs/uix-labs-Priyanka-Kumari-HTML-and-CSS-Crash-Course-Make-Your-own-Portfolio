@@ -235,3 +235,44 @@ input{
    color: #6cbebe;
    padding: 60px;
 }
+
+@media only screen and (max-width:600px){
+    body{
+        display: block;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:600px){
+    .portfolio-container img p h1 {
+        align-items: center;
+        width: 68%;
+
+    }
+}
+@media only screen and (max-width:600px){
+    .img-h1{ 
+        
+        display: none;
+        
+    }
+}
+@media only screen and (max-width:600px){
+    .skill-container  img{ 
+        display: none;
+        align-items: center;
+        justify-content: center;
+   
+        
+    }
+}
+
+@media only screen and (max-width:600px){
+    .skill-contants p { 
+        display: none;
+        align-items: center;
+        justify-content: center;
+   
+        
+    }
+}
+
