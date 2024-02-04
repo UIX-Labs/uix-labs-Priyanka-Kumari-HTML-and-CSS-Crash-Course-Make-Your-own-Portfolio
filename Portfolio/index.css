@@ -1,1 +1,237 @@
 /* Write your code below for PORTFOLIO */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+
+}
+.portfolio-container{
+    width: 75%;
+    margin-left: 10%;
+    padding-left:50px ;
+    padding-right: 50px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    position: relative;
+    
+}
+
+
+.navbar{
+  
+  padding: 10px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    
+    display: inline-block;
+}
+li a{
+  
+    font-size: 20px;
+    color: rgb(38, 54, 194);
+    text-decoration: none;
+   margin-left: 40px;
+   font-weight: bold;
+   font-size: 22px;
+}
+
+.img-continer{
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.my-img img{
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 5px;
+    box-shadow: 1px 1px 20px white;
+}
+
+.img-h1{
+    margin-top: 15%;
+}
+.about-me{
+   
+    
+}
+.about-h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(35, 43, 15);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about-me p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Name-details p{
+    padding-top: 10px;
+    color: rgb(31, 32, 32);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.skill-container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.skill-items {
+    display: flex;
+    justify-content: center;
+}
+.skill-items img{
+    height: 70px;
+    width: 90px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.skill-contants{
+    display: flex;
+    justify-content: center;
+}
+.skill-contants p{
+    color: #f8f3f2;
+    font-weight: bold;
+  padding-left: 39px;
+  padding-right: 33px;
+   
+  
+}
+ 
+/*project-1*/
+.About-projects{
+    display: flex;
+    margin-bottom: 80px;
+}
+.project-h1{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.project-1 img{
+    height: 270px;
+    width: 220px;
+    border-radius: 20px;
+    float: left;
+    margin-right:20px ;
+}
+.project-btn{
+    background-color: rgb(86, 174, 209);
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(24, 15, 11);
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+.rst-skill{
+    color: #c8b650;
+    margin-top: 10px;
+}
+.project-1 .rst-p{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.project-1 p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+
+.project-1 .project-img-2{
+    height: 270px;
+    width: 420px;
+    border-radius: 20px;
+    float: right;
+    margin-left: 20px;
+   
+}
+
+/*footer form here*/
+
+
+form{
+  
+   
+}
+.form-container{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   background-color: #6cbebe;
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+input{
+    height: 30px;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.textarea-1{
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    
+}
+.submit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-submit{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #be6cbe;
+    margin-top: 10px;
+    
+}
+
+
+.fa-brands{
+    padding-top: 20px;
+    margin-right: 10px;
+    color: #6cbea5;
+}
+
+.footer-lst-container{
+    display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  padding: 40px;
+  
+}
+.footer-last-item li a{
+   color: #6cbebe;
+   padding: 60px;
+}
